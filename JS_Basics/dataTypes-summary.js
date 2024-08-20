@@ -5,17 +5,17 @@
    
 */
 
-const score = 100; // Number type
-const scoreValue = 100.3; // Number type
+// const score = 100; // Number type
+// const scoreValue = 100.3; // Number type
 
-const isLoggedIn = false; // Boolean type
-const outsideTemperture = null; // null type
+// const isLoggedIn = false; // Boolean type
+// const outsideTemperture = null; // null type
 
-let userEmail; // undefined type
+// let userEmail; // undefined type
 
-const id = Symbol('123');
+/* const id = Symbol('123');
 
-const anotherId = Symbol('123');
+const anotherId = Symbol('123'); */
 
 // Note :-> id , anotherId are different;
 /* 
@@ -38,7 +38,8 @@ console.log(typeof bigNumber); */
 */
 
 // Array data-type
-const heros = ["shaktiman", "Naagra", "doga"];
+
+/* const heros = ["shaktiman", "Naagra", "doga"];
 console.log(typeof heros);
 
 
@@ -56,4 +57,30 @@ const myFunction = function()
     console.log("Hello world");
 }
 
-console.log(myFunction);
+console.log(myFunction); */
+
+
+// ********************************* \\
+// Stack(Primitive), Heap(Non-Primitive)
+
+let myYoutubename = "xyz";
+
+let anotherName = myYoutubename;
+
+anotherName = "abcd";
+
+console.log(anotherName);
+console.log(myYoutubename);
+
+let userOne = {
+    email: "user@googl.com",
+    upiId: "user@ybl"
+};
+
+
+let userTwo = userOne;
+
+userTwo.email = "297srivastav@gmail.com";
+
+console.log(userOne.email);
+console.log(userTwo.email);
