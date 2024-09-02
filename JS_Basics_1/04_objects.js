@@ -75,4 +75,43 @@ console.log(Object.values(tinderUser)); */
 
 // console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+
+
+const course = {
+    coursname : "js in hindi",
+    price : "999",
+    courseInstructor : "hitesh"
+}
+
+
+// console.courseInstructor;
+
+// ****** Object De-Structure *******
+
+// const {courseInstructor} = course;
+// console.log(courseInstructor);
+
+/* const {courseInstructor : instructor} = course;
+console.log(instructor); */
+
+
+
+
+// JSON
+
+/* 
+    {
+        "name" : "srivastav", 
+        "course" : "js in Hindi", 
+        "price" : "free"
+    } 
+*/
+
+// JSON Array format
+/*
+    [
+      {}, {}
+    ] 
+*/
