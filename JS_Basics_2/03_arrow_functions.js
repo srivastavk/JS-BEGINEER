@@ -69,11 +69,11 @@
     console.log(addTwoNumber(9, 9)); 
 */
 
-/* 
+
     // return object in arrow function
 
-    const addTwoNumber = (num1, num2) => ({username : "abce"});
+    // const addTwoNumber = (num1, num2) => ({username : "abce"});
 
-    console.log(addTwoNumber(9, 9));  
-*/
+    // console.log(addTwoNumber(9, 9));  
+
 
