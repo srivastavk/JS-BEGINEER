@@ -27,6 +27,7 @@ map.set("fr", "France");
     console.log(key , ":- " , value);
 } */
 
+
 const myObject = {
     'game1' : 'NFS',
     'game2' : 'Spiderman'
