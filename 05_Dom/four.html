@@ -20,9 +20,12 @@
     div.style.backgroundColor = "green";
     div.style.padding = "12px";
 
-    // div.innerText = "Chai aur Code";
-    let addText = document.createTextNode("Chai aur code");
-    div.appendChild(addText);
+    div.innerHTML = "Chai aur Code";
+
+    // 2.  div.innerText = "Chai aur code"
+
+    // 3. let addText = document.createTextNode("Chai aur code");
+    // div.appendChild(addText);
 
     document.body.appendChild(div);
 </script>
