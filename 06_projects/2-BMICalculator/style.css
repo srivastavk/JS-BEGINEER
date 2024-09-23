@@ -1,0 +1,43 @@
+.container
+{
+    text-align: center;
+    font-weight: 900;
+    margin-top: 100px;
+}
+
+h1{
+    font-weight:800;
+    font: bold;
+    
+}
+h3{
+    font: bold;
+}
+#weight{
+    border-radius: 5px;
+    margin-left: 5px;
+    height: 20px;
+    width: 175px;
+}
+#height{
+    margin-left: 5px;
+    border-radius: 5px;
+    height: 20px;
+    width: 175px;
+}
+
+button{
+    font-size: 15px;
+    font: bold;
+    border-radius: 5px;
+}
+
+#weight-guide{
+    font-size: 18px;
+}
+
+#results{
+    font-size: 50px;
+    color: rgb(156, 147, 147);
+    
+}
