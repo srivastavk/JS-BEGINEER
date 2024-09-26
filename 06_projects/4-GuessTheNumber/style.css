@@ -44,9 +44,12 @@
 #newGame{
     cursor: pointer;
 
-    display: inline-block;
+    display: block;
     background-color: white;
     color: black;
     border-radius: 8px;
     font-size: 20px;
+    text-align: center;
+    width: 200px;
+    margin: auto;
 }
