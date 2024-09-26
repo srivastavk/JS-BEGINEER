@@ -1,0 +1,16 @@
+*{
+    overflow-x: hidden;
+}
+
+#images
+{
+    display: flex;
+    height: 100vh;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.size{
+    height: 200px;
+    width: 350px;
+    border-radius: 5px;
+}
