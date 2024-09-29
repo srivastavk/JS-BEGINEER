@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Async code</title>
+</head>
+
+<body>
+    <h1>Chia aur JavaScript</h1>
+    <button id="Start">Start</button>
+    <button id="stop">Stop</button>
+</body>
+<script>
+    // setInterval(()=>
+    // {
+    //     console.log('Srivastav', Date.now());
+    // }, 1000)
+
+    /* 
+         const sayDate = (str)=>{
+             console.log(str, Date.now());
+         }
+ 
+         const intervalId = setInterval(sayDate, 1000, 'Hi')
+ 
+         document.querySelector('button').addEventListener('click', (e)=>{
+             clearInterval(intervalId);
+             console.log("STOPED");
+             
+         }) 
+     */
+
+    let intervalId = 0;
+
+    const sayDate = (str) => {
+        console.log(str, Date.now());
+    }
+    
+    document.getElementById('Start').addEventListener('click', () => {
+        if (intervalId === 0) {
+            // Store the interval ID
+            intervalId = setInterval(sayDate, 1000, 'Hi');
+            console.log("Interval started");
+        }
+    });
+
+    document.getElementById('stop').addEventListener('click', () => {
+        console.log(intervalId);
+        if (intervalId !== 0) {
+            console.log("INTERVALID :-> ", intervalId);
+            clearInterval(intervalId); // Use the actual interval ID
+            // console.log("Interval stopped");
+            intervalId = 0; // Reset the interval ID to 0
+        }
+    });
+
+
+</script>
+
+</html>
